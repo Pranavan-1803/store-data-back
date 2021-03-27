@@ -5,10 +5,10 @@ const Store = require("./Model");
 router.route("/create").post((req, res)=>{
 
     const name = req.body.name;
-    const birthday= req.body.name;
-    const age= req.body.name;
-    const address= req.body.name;
-    const mobile= req.body.name;
+    const birthday= req.body.birthday;
+    const age= req.body.age;
+    const address= req.body.address;
+    const mobile= req.body.mobile;
 
     const newStore = new Store({
         name,
